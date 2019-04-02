@@ -6,10 +6,13 @@
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$USER_HOME$/Downloads/DemoUpload" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/Search" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../DocumentManagementSystem" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../DocumentManagementSystem/DocumentManagementSystemAndDocusign" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/DocumentManagement" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/DocumentManagement (1)" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/DocumentManagementSystem (1)" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/DocumentManagementSystem-20190401T130902Z-001/DocumentManagementSystem" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/DocumentManagementSystem-20190402T092007Z-001" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/DocumentManagementSystem-20190402T092007Z-001/DocumentManagementSystem" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/Token (3)" value="PREVIEW" />
         <entry key="$PROJECT_DIR$" value="PREVIEW" />
       </map>
     </option>
@@ -20,11 +23,7 @@
     <option name="height" value="525" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="masterDetails">
     <states>
