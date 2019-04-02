@@ -4,12 +4,10 @@ package com.nineleaps.DocumentManagementSystem.controller;
 import com.nineleaps.DocumentManagementSystem.dto.SigninResponseData;
 import com.nineleaps.DocumentManagementSystem.dto.TokenData;
 import com.nineleaps.DocumentManagementSystem.service.Impl.SigninServiceImpl;
-import org.json.simple.parser.ParseException;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
+
 
 import java.io.IOException;
+import java.text.ParseException;
 
 
 @CrossOrigin
@@ -22,7 +20,6 @@ public class SignInController {
     @ResponseBody
     @PostMapping("/v1/signin")
     public SigninResponseData signInRequest(@RequestBody String tokenData) throws IOException, ParseException {
-
         System.out.println("mukul");
         System.out.println("mukesh");
         return impl.tokenValidationreq(tokenData);
