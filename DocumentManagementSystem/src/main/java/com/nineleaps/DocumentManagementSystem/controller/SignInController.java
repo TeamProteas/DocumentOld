@@ -2,12 +2,16 @@ package com.nineleaps.DocumentManagementSystem.controller;
 
 
 import com.nineleaps.DocumentManagementSystem.dto.SigninResponseData;
-import com.nineleaps.DocumentManagementSystem.dto.TokenData;
 import com.nineleaps.DocumentManagementSystem.service.Impl.SigninServiceImpl;
-
+import org.json.simple.parser.ParseException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.IOException;
-import java.text.ParseException;
 
 
 @CrossOrigin
@@ -24,7 +28,8 @@ public class SignInController {
         System.out.println("mukesh");
         return impl.tokenValidationreq(tokenData);
 
-}}
+    }
+}
 
 
 
