@@ -17,6 +17,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -77,6 +78,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nineleaps/DocumentManagementSystem/service/DocumentTypeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nineleaps/DocumentManagementSystem/repository/DocumentTypeRepository.java" />
       </list>
+=======
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/DocumentManagement" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/DocumentManagement (1)" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/DocumentManagementSystem (1)" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/DocumentManagementSystem-20190401T130902Z-001/DocumentManagementSystem" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/DocumentManagementSystem-20190402T092007Z-001" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/DocumentManagementSystem-20190402T092007Z-001/DocumentManagementSystem" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/Token (3)" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="PREVIEW" />
+      </map>
+>>>>>>> dd15756b3b74d9931b0f47a7e5e03d0b5e769319
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -84,6 +99,7 @@
     <option name="width" value="663" />
     <option name="height" value="525" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -281,6 +297,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nineleaps/DocumentManagementSystem/repository/DocumentTypeRepository.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+=======
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+>>>>>>> dd15756b3b74d9931b0f47a7e5e03d0b5e769319
   </component>
   <component name="masterDetails">
     <states>
