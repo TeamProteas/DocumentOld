@@ -2,7 +2,6 @@ package com.nineleaps.DocumentManagementSystem.service.Impl;
 
 import com.nineleaps.DocumentManagementSystem.dao.EmployeeAccounts;
 import com.nineleaps.DocumentManagementSystem.dao.EmployeeData;
-import com.nineleaps.DocumentManagementSystem.dto.UploadRequestData;
 import com.nineleaps.DocumentManagementSystem.exceptions.CustomResponse;
 import com.nineleaps.DocumentManagementSystem.exceptions.SignInInvalidTokenError;
 import com.nineleaps.DocumentManagementSystem.exceptions.UploadError;
@@ -78,14 +77,14 @@ public class UploadServiceImpl implements UploadService {
         System.out.println(user_name);
 
 // FETCHING THE REQUIRED EMAIL RECORD AND THEN USING THE UID TO STORE AS FOLDERUID IN EMPLOYEE DATA
-        long time= Instant.now().toEpochMilli();
+        long time = Instant.now().toEpochMilli();
 
         EmployeeAccounts employeeAccounts = acc_repo.findbyEmailId(email);
         EmployeeData finddata = data_repo.findFileRow(filetype, employeeAccounts.getUid().toString());
         if (finddata != null) {
             EmployeeData employeeData = new EmployeeData(finddata.getUid(), filetype,
-                    employeeAccounts.getUid().toString(), multipartFile.getOriginalFilename(), user_name,time
-                    );
+                    employeeAccounts.getUid().toString(), multipartFile.getOriginalFilename(), user_name, time
+            );
             data_repo.save(employeeData);
         } else {
             EmployeeData employeeData = new EmployeeData(UUID.randomUUID(), filetype,
