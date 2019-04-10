@@ -4,7 +4,6 @@ package com.nineleaps.DocumentManagementSystem.service.Impl;
 
 import com.nineleaps.DocumentManagementSystem.dao.EmployeeAccounts;
 import com.nineleaps.DocumentManagementSystem.dto.SigninResponseData;
-import com.nineleaps.DocumentManagementSystem.dto.TokenData;
 import com.nineleaps.DocumentManagementSystem.exceptions.SignInInvalidTokenError;
 import com.nineleaps.DocumentManagementSystem.exceptions.SignInUserDataNotFound;
 import com.nineleaps.DocumentManagementSystem.repository.EmployeeAccountsRepository;

@@ -1,7 +1,6 @@
 package com.nineleaps.DocumentManagementSystem.controller;
 
 
-import com.nineleaps.DocumentManagementSystem.dto.UploadRequestData;
 import com.nineleaps.DocumentManagementSystem.exceptions.CustomResponse;
 import com.nineleaps.DocumentManagementSystem.service.Impl.UploadServiceImpl;
 import org.json.simple.parser.ParseException;

@@ -1,6 +1,5 @@
 package com.nineleaps.DocumentManagementSystem.service;
 
-import com.nineleaps.DocumentManagementSystem.dto.UploadRequestData;
 import com.nineleaps.DocumentManagementSystem.exceptions.CustomResponse;
 import org.json.simple.parser.ParseException;
 import org.springframework.http.ResponseEntity;
