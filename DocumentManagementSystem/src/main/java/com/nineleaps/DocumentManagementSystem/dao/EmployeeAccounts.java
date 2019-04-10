@@ -12,7 +12,7 @@ import java.util.UUID;
 
 
 @Table(value="EmployeeAccounts")
-public class EmployeeAccounts {
+public class    EmployeeAccounts {
 
 
 

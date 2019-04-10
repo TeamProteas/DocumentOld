@@ -8,7 +8,8 @@ import java.util.UUID;
 
 
 @Table("DocumentType")
-public class DocumentType {
+public class
+DocumentType {
 
     @Id
     @Column(value = "uid")
