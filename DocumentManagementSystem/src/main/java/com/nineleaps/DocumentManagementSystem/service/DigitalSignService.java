@@ -9,4 +9,3 @@ public interface DigitalSignService {
 
     public void sendSignRequest(String signeeEmailid, String signeeName, String name, MultipartFile file, String documentName) throws IOException, ParseException;
 }
-
