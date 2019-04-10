@@ -19,4 +19,13 @@ public interface EmployeeDataRepository extends CassandraRepository<EmployeeData
 
     @Query("delete from employeedata WHERE uid=?0")
     public void deleteByUid(UUID uid);
+
+
+    @Query("select * from employeedata where folderuid=?0 and verifiedstatus=True Allow Filtering")
+    public List<EmployeeData> findByfolderUidAndVerified(String folderUid);
+
+    @Query("update employeedata set verifiedstatus = ?0 where uid=?1 ")
+    public void setVerifyStatus(boolean verifyStatus,UUID uid);
+
+
 }

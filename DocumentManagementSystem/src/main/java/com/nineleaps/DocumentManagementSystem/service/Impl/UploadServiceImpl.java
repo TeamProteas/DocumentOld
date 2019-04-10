@@ -36,6 +36,8 @@ public class UploadServiceImpl implements UploadService {
     EmployeeAccountsRepository acc_repo;
     @Autowired
     EmployeeDataRepository data_repo;
+    @Autowired
+    StatusTableImpl statusTableImpl;
 
 
     @Override
@@ -108,7 +110,7 @@ public class UploadServiceImpl implements UploadService {
 
         CustomResponse customResponse = new CustomResponse(new Date(), "Success",
                 "the file was uploaded sucessfully!", HttpStatus.ACCEPTED.getReasonPhrase());
-//
+
 
         return new ResponseEntity<CustomResponse>(customResponse, HttpStatus.ACCEPTED);
     }
